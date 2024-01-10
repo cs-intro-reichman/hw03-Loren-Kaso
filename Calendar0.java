@@ -25,10 +25,10 @@ public class Calendar0 {
 		if(isLeapYear(year)){
 		System.out.println(year + " is a leap year");
 		}else{
-		System.out.println(year + "is a common year");
+		System.out.println(year + " is a common year");
 		}
 		for (int i = 1; i <= 12; i++) {
-			System.out.println("Month" + i + "has"+ nDaysInMonth(i, year) +"days");
+			System.out.println("Month " + i + " has "+ nDaysInMonth(i, year) +" days");
 		}
 	}
 	
